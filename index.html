@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Farewell 2025</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+  <h1>Farewell 2025 🎓</h1>
+  <div class="divider"></div>
+
+<p class="quote" id="quote"></p>
+  <p class="subheading">Leave a message for the 2025 batch 💖</p>
+   <p class="description">
+    
+
+    A place where juniors leave memories for the 2025 batch
+  </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeM1ZWQ2dIK0ysyQH-xJXOpI4K8NHjApXsH5QdWoZzz9sr8pQ/viewform?usp=sharing&ouid=116464742042411681842" target="_blank">
+     <button>Write Your Farewell Message here. 💌</button>
+    </a>
+  
+
+    
+  <form>
+   <div class="slideshow-box">
+  <h3>Our Memories 🤍</h3>
+
+  <div class="slideshow">
+    <img src="images/slide1.jpg" class="slide active" data-caption="Every ending begins with a glow 💙">
+    <img src="images/slide2.jpg" class="slide" data-caption="More than classmates, family ✨">
+    <img src="images/slidea.jpg" class="slide" data-caption="Proof that school was fun.">
+    <img src="images/slide3a.JPG" class="slide" data-caption="These faces made school feel like home.">
+    <img src="images/slide4.jpg" class="slide" data-caption="Memories packed better than luggage">
+    <img src="images/slide5.jpg" class="slide" data-caption="Miles away, still together.">
+    <img src="images/slide6.jpg" class="slide" data-caption="The day we celebrated those who shaped us.">
+    <img src="images/slide7.jpg" class="slide" data-caption="Thanks for being a part of our journey.">
+  </div>
+
+  <p class="caption" id="captionText">Every ending begins with a glow 💙</p>
+</div>
+
+<script src="script.js"></script>
+
+
+
+    <button type="submit">A message from Batch 2025–26 🤍</button>
+  </form>
+
+  <p><i>Messages will open on 31 Jan 2026</i></p>
+  <script src="script.js"></script>
+</div>
+<script>
+  const quotes = [
+    "Some goodbyes are not the end, they are the beginning.",
+    "Memories remain long after the farewell.",
+    "Once a part of our story, always a part of our heart.",
+    "Goodbyes make you think. They make you realize what you’ve had.",
+    "The best memories are made with people you never forget."
+  ];
+
+  const quoteElement = document.getElementById("quote");
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  quoteElement.textContent = quotes[randomIndex];
+</script>
+
+</body>
+</html>
